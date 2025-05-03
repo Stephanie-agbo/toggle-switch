@@ -43,6 +43,18 @@ body {
     font-size: 1.25rem;
 }
 
+/*style the medium article button*/
+
+#link {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: black;
+    color: rgb(174, 162, 32);
+    border: 1px;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 /* Style the dark mode version of the page, this styles will activate when our body has class of dark */
 
@@ -62,5 +74,10 @@ body.dark #navbar h4 {
 body.dark #theme-switch {
     background-color: rgb(171, 133, 20);;
     color: rgb(65, 48, 5);
+}
+
+body.dark #link{
+    background-color: rgb(65, 48, 5);
+    color: rgb(171, 133, 20);;
 }
 
