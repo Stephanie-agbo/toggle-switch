@@ -1,0 +1,66 @@
+/* This is the style for the default light mode */
+
+body {
+    background-color: rgb(235, 235, 227);
+    color: rgb(55, 53, 33);
+    font-family: sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style the nav bar*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c2d11;
+    padding: 1rem;
+}
+
+/* Style the title inside the nav bar*/
+#navbar h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgb(231, 232, 220);
+}
+
+/* Style the switch button */
+#theme-switch {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: rgb(174, 162, 32);
+    color: black;
+    border: 1px;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the text area */
+#textarea {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+/* Style the dark mode version of the page, this styles will activate when our body has class of dark */
+
+body.dark {
+    background-color: rgb(30, 30, 30);
+    color: rgb(243, 243, 239);
+}
+
+body.dark #navbar {
+    background-color: #242421;
+}
+
+body.dark #navbar h4 {
+    color: rgb(233, 227, 227);
+}
+
+body.dark #theme-switch {
+    background-color: rgb(171, 133, 20);;
+    color: rgb(65, 48, 5);
+}
+
